@@ -1,0 +1,150 @@
+@media (max-width: 1100px) {
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center
+    }
+
+    .overlay-box {
+        width: 844px;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .logo-on-header {
+        height: 200px;
+        width: 150px;
+    }
+
+    .overlay-box {
+        max-height: 70vh;
+        width: 470px;
+    }
+
+    .overlay-box img {
+        width: 60vw;
+        height: 60vh;
+    }
+
+    .buttons-content {
+        font-size: 2.5rem;
+    }
+
+    .dialog-close-button {
+        top: 25px;
+        right: 2px;
+    }
+
+    .both-arrow-buttons {
+        top: 85%;
+    }
+
+    .arrow-left {
+        margin-left: 0px;
+    }
+
+    .arrow-right {
+        margin-right: 0px;
+    }
+
+    .overlay-image-name {
+        margin-top: 0px;
+    }
+
+}
+
+@media (max-width: 370px) {
+
+    .logo-on-header {
+        height: 100px;
+        width: 150px;
+    }
+
+    .overlay-box {
+        max-height: 360px;
+        width: 329px;
+    }
+
+    .both-arrow-buttons {
+        top: 80 %;
+    }
+
+
+    .overlay-image-name {
+        margin-top: -77px;
+    }
+
+}
+
+/* @media (max-width: 370px) {
+
+    .buttons-content {
+        font-size: 2.0rem;
+    }
+
+    .both-arrow-buttons {
+        top: 68%;
+    }
+
+    .overlay-image-name {
+        margin-top: 75px;
+    }
+} */
+
+/* @media (max-width: 290px) {
+
+    .dialog-close-button {
+        top: 25px;
+        right: -4px;
+    }
+
+    .both-arrow-buttons {
+        background-color: none;
+        top: 65%;
+    }
+
+    .overlay-image-name {
+        margin-top: 75px;
+    }
+} */
+
+/* @media (max-width: 243px) {
+
+    .buttons-content {
+        font-size: 1rem;
+    }
+
+    .dialog-close-button {
+        right: 0px;
+    }
+
+    .arrow-left {
+        margin-left: 27px;
+    }
+
+    .arrow-right {
+        margin-right: 27px;
+    }
+} */
+
+/* @media (max-width: 175px) {
+
+    .arrow-left {
+        margin-left: 4px;
+    }
+
+    .arrow-right {
+        margin-right: 4px;
+    }
+} */
+
+/* @media (max-width: 150px) {
+
+    .overlay-section {
+        display: none;
+    }
+
+} */

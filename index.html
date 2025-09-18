@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotogram</title>
+    <link rel="icon" type="image/png" href="./img/favicon/favicon.png">
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link rel="stylesheet" href="./responsive.css">
+</head>
+
+<body onload="render()">
+    <header>
+        <img src="./img/logo/Fotogram_Logo.svg" class="logo-on-header" alt="logo">
+        <br><br>
+    </header>
+
+
+    <main class="main-container">
+        <div id="content"></div>
+
+        <dialog onclick="toggleOverlay()" id="overlay-section" class="overlay-section dialog-hidden"
+            aria-label="Overlay schließen">
+
+            <div onclick="overlayStayOpen(event)" class="overlay-box">
+
+                <button onclick="toggleOverlay(currentOverlayImageIndex)" class="buttons-content dialog-close-button"
+                    aria-label="Overlay schließen">
+                    X
+                </button>
+                <button onclick="previousOverlayImage()" class="buttons-content both-arrow-buttons arrow-left" id="prev-button"
+                    aria-label="Vorheriges Bild">
+                    &lt;
+                </button>
+
+                <div id="overlay-images" class="overlay-images" alt="images"></div>
+                <button onclick="nextOverlayImage()" class="buttons-content both-arrow-buttons arrow-right" id="next-button"
+                    aria-label="Nächstes Bild">
+                    &gt;
+                </button>
+
+                <p class="overlay-image-name" id="img-title-text-overlay" aria-label="Bildname">fotoname</p>
+
+            </div>
+
+        </dialog>
+    </main>
+
+    <footer>
+        <p>Fotoalbum Project by Developers Akademie <br>
+            powered by Erik Beshiri</p>
+    </footer>
+</body>
+<script src="./script.js"></script>
+
+</html>
