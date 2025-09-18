@@ -1,17 +1,32 @@
-/* @media (max-width: 1100px) {
-
-    header {
-        display: flex;
-        align-items: center;
-        justify-content: center
-    }
+@media (max-width: 1000px) {
 
     .overlay-box {
-        width: 844px;
+        width: 800px;
+        height: auto;
     }
 
+    .overlay-box img {
+        height: auto;
+        width: auto;
+        /* width: 700px; */
+    }
 }
 
+/* @media (max-width: 850px) {
+
+    .overlay-box {
+        width: 800px;
+        height: auto;
+    }
+
+    .overlay-box img {
+        height: auto;
+        width: auto;
+        width: 700px;
+    }
+} */
+
+/*
 @media (max-width: 500px) {
 
     .logo-on-header {
@@ -77,8 +92,9 @@
         margin-top: -77px;
     }
 
-} */
+}
 
+*/
 /* @media (max-width: 370px) {
 
     .buttons-content {
