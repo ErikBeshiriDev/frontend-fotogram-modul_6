@@ -29,18 +29,23 @@
                     aria-label="Overlay schließen">
                     X
                 </button>
-                <button onclick="previousOverlayImage()" class="buttons-content both-arrow-buttons arrow-left" id="prev-button"
-                    aria-label="Vorheriges Bild">
-                    &lt;
-                </button>
 
                 <div id="overlay-images" class="overlay-images" alt="images"></div>
-                <button onclick="nextOverlayImage()" class="buttons-content both-arrow-buttons arrow-right" id="next-button"
-                    aria-label="Nächstes Bild">
-                    &gt;
-                </button>
 
-                <p class="overlay-image-name" id="img-title-text-overlay" aria-label="Bildname">fotoname</p>
+                <div class="under-the-photo-section">
+                    <button onclick="previousOverlayImage()" class="buttons-content both-arrow-buttons arrow-left"
+                        id="prev-button" aria-label="Vorheriges Bild">
+                        &lt;
+                    </button>
+
+                    <p class="overlay-image-name" id="img-title-text-overlay" aria-label="Bildname">fotoname</p>
+
+                    <button onclick="nextOverlayImage()" class="buttons-content both-arrow-buttons arrow-right"
+                        id="next-button" aria-label="Nächstes Bild">
+                        &gt;
+                    </button>
+                </div>
+
 
             </div>
 
