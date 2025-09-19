@@ -1,14 +1,126 @@
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
 
     .overlay-box {
-        width: 800px;
         height: auto;
+        width: 700px;
+        /* width: auto; */
     }
 
     .overlay-box img {
         height: auto;
-        width: auto;
-        /* width: 700px; */
+        /* width: auto; */
+        width: 700px;
+    }
+}
+
+@media (max-width: 720px) {
+
+    .overlay-box {
+        height: auto;
+        width: 600px;
+    }
+
+    .overlay-box img {
+        height: auto;
+        width: 600px;
+    }
+}
+
+@media (max-width: 630px) {
+
+    .overlay-box {
+        height: auto;
+        width: 500px;
+    }
+
+    .overlay-box img {
+        height: auto;
+        width: 500px;
+    }
+}
+
+@media (max-width: 600px) {
+    
+    .under-the-photo-section {
+        flex-direction: column;
+        /* Name oben, Pfeile unten */
+        align-items: center;
+        /* alles zentriert */
+    }
+
+    .overlay-image-name {
+        margin-bottom: 8px;
+        /* Abstand zwischen Name und Pfeilen */
+    }
+
+    .arrow-left,
+    .arrow-right {
+        width: 80px;
+        /* optional: gleiche Breite */
+    }
+
+    .under-the-photo-section button {
+        margin: 0 5px;
+        /* Pfeile nebeneinander mit Abstand */
+    }
+}
+
+@media (max-width: 540px) {
+
+    .overlay-box {
+        height: auto;
+        width: 400px;
+    }
+
+    .overlay-box img {
+        height: auto;
+        width: 400px;
+    }
+
+    .under-the-photo-section {
+        width: 400px;
+    }
+}
+
+@media (max-width: 500px) {
+    .logo-on-header {
+        justify-content: center;
+        height: 200px;
+        width: 150px;
+    }
+}
+
+@media (max-width: 440px) {
+
+    .overlay-box {
+        height: auto;
+        width: 200px;
+    }
+
+    .overlay-box img {
+        height: auto;
+        width: 200px;
+    }
+
+    .under-the-photo-section {
+        width: 200px;
+    }
+}
+
+@media (max-width: 240px) {
+
+    .overlay-box {
+        height: auto;
+        width: 100px;
+    }
+
+    .overlay-box img {
+        height: auto;
+        width: 100px;
+    }
+
+    .under-the-photo-section {
+        width: 100px;
     }
 }
 
@@ -29,10 +141,7 @@
 /*
 @media (max-width: 500px) {
 
-    .logo-on-header {
-        height: 200px;
-        width: 150px;
-    }
+
 
     .overlay-box {
         max-height: 70vh;

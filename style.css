@@ -137,29 +137,20 @@ dialog {
   /* background-color: #5D8999; */
 }
 
-.under-the-photo-section:hover; {
+.under-the-photo-section:hover {
   background-color: #5D8999;
 }
 
 .both-arrow-buttons {
-  /* position: absolute; */
-  /* top: 50%; */
-  /* transform: translateY(-50%); */
 }
 
 .arrow-left {
-  /* left: 20px; */
 }
 
 .arrow-right {
-  /* right: 20px; */
 }
 
 .overlay-image-name {
-  /* margin-top: 10px; */
-  /* color: white; */
-  /* font-size: 1rem; */
-  /* text-align: center; */
 }
 
 /* the Footer */
