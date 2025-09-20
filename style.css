@@ -53,13 +53,12 @@ body {
   transform: scale(1.1);
 }
 
-/* the Overlay*/
+/* the Overlay = the Dialog */
 
 dialog {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* position:absolute; */
   top: 0;
   bottom: 0;
   left: 0;
@@ -67,7 +66,6 @@ dialog {
   height: 100%;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
-  /* z-index: 1000; */
 }
 
 .dialog-hidden {
@@ -75,54 +73,23 @@ dialog {
 }
 
 .overlay-box {
-  /* position: relative; */
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* max-height: 90vh; */
-  /* width: 1000px; */
   background-color: #0A222C;
-  /* border-radius: 10px; */
-  /* box-shadow: 0px 4px 15px rgba(0, 150, 255, 0.6); */
-  /* padding: 20px; */
-  /* overflow: hidden; */
 }
 
 .overlay-box img {
-  /* max-width: 60vw; */
-  /* max-height: 60vh; */
   height: 500px;
   width: auto;
-  /* object-fit: contain; */
-  /* border-radius: 6px; */
 }
 
 .buttons-content {
-  /* font-size: 4rem; */
-  /* border: none; */
   padding: 10px;
-  /* border-radius: 50%; */
-  /* cursor: pointer; */
-  /* z-index: 10; */
-  /* background: transparent; */
-  /* color: white; */
-  /* background-color: gray;# */
 }
 
 .dialog-close-button {
-  /* position: absolute; */
-  /* transform: translateY(-50%); */
-  /* position: absolute; */
-  /* display: flex; */
   align-self: flex-end;
-  /* position: fixed; */
-  /* justify-content: center; */
-  /* justify-content: end; */
-  /* top: 40px; */
-  /* right: 15px; */
-  /* background: transparent; */
-  /* color: white; */
-  /* border: none; */
 }
 
 .under-the-photo-section {
@@ -133,25 +100,23 @@ dialog {
   color: white;
   background-color: white;
   background-color: transparent;
-  /* background-color: aquamarine; */
-  /* background-color: #5D8999; */
 }
 
 .under-the-photo-section:hover {
   background-color: #5D8999;
 }
 
-.both-arrow-buttons {
-}
+/* .both-arrow-buttons {
+} */
 
-.arrow-left {
-}
+/* .arrow-left {
+} */
 
-.arrow-right {
-}
+/* .arrow-right {
+} */
 
-.overlay-image-name {
-}
+/* .overlay-image-name {
+} */
 
 /* the Footer */
 

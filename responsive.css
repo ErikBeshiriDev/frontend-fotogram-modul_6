@@ -40,28 +40,30 @@
 }
 
 @media (max-width: 600px) {
-    
     .under-the-photo-section {
-        flex-direction: column;
-        /* Name oben, Pfeile unten */
-        align-items: center;
-        /* alles zentriert */
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+        width: 100%;
     }
 
     .overlay-image-name {
+        grid-column: 1 / -1;
+        grid-row: 1;
+        text-align: center;
         margin-bottom: 8px;
-        /* Abstand zwischen Name und Pfeilen */
     }
 
-    .arrow-left,
+    .arrow-left {
+        grid-column: 1;
+        grid-row: 2;
+        justify-self: center;
+    }
+
     .arrow-right {
-        width: 80px;
-        /* optional: gleiche Breite */
-    }
-
-    .under-the-photo-section button {
-        margin: 0 5px;
-        /* Pfeile nebeneinander mit Abstand */
+        grid-column: 2;
+        grid-row: 2;
+        justify-self: center;
     }
 }
 
@@ -107,7 +109,7 @@
     }
 }
 
-@media (max-width: 240px) {
+/* @media (max-width: 240px) {
 
     .overlay-box {
         height: auto;
@@ -122,154 +124,4 @@
     .under-the-photo-section {
         width: 100px;
     }
-}
-
-/* @media (max-width: 850px) {
-
-    .overlay-box {
-        width: 800px;
-        height: auto;
-    }
-
-    .overlay-box img {
-        height: auto;
-        width: auto;
-        width: 700px;
-    }
-} */
-
-/*
-@media (max-width: 500px) {
-
-
-
-    .overlay-box {
-        max-height: 70vh;
-        width: 470px;
-    }
-
-    .overlay-box img {
-        width: 60vw;
-        height: 60vh;
-    }
-
-    .buttons-content {
-        font-size: 2.5rem;
-    }
-
-    .dialog-close-button {
-        top: 25px;
-        right: 2px;
-    }
-
-    .both-arrow-buttons {
-        top: 85%;
-    }
-
-    .arrow-left {
-        margin-left: 0px;
-    }
-
-    .arrow-right {
-        margin-right: 0px;
-    }
-
-    .overlay-image-name {
-        margin-top: 0px;
-    }
-
-}
-
-@media (max-width: 370px) {
-
-    .logo-on-header {
-        height: 100px;
-        width: 150px;
-    }
-
-    .overlay-box {
-        max-height: 360px;
-        width: 329px;
-    }
-
-    .both-arrow-buttons {
-        top: 80 %;
-    }
-
-
-    .overlay-image-name {
-        margin-top: -77px;
-    }
-
-}
-
-*/
-/* @media (max-width: 370px) {
-
-    .buttons-content {
-        font-size: 2.0rem;
-    }
-
-    .both-arrow-buttons {
-        top: 68%;
-    }
-
-    .overlay-image-name {
-        margin-top: 75px;
-    }
-} */
-
-/* @media (max-width: 290px) {
-
-    .dialog-close-button {
-        top: 25px;
-        right: -4px;
-    }
-
-    .both-arrow-buttons {
-        background-color: none;
-        top: 65%;
-    }
-
-    .overlay-image-name {
-        margin-top: 75px;
-    }
-} */
-
-/* @media (max-width: 243px) {
-
-    .buttons-content {
-        font-size: 1rem;
-    }
-
-    .dialog-close-button {
-        right: 0px;
-    }
-
-    .arrow-left {
-        margin-left: 27px;
-    }
-
-    .arrow-right {
-        margin-right: 27px;
-    }
-} */
-
-/* @media (max-width: 175px) {
-
-    .arrow-left {
-        margin-left: 4px;
-    }
-
-    .arrow-right {
-        margin-right: 4px;
-    }
-} */
-
-/* @media (max-width: 150px) {
-
-    .overlay-section {
-        display: none;
-    }
-
 } */
