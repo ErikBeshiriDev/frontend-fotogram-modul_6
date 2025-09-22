@@ -13,14 +13,14 @@
 <body onload="render()">
     <header>
         <img src="./img/logo/Fotogram_Logo.svg" class="logo-on-header" alt="logo">
-        <br><br>
     </header>
 
 
     <main>
+        <div class="content"></div>
         <div id="content"></div>
-        
-        <dialog onclick="toggleOverlay()" id="overlay-section" class="overlay-section dialog-hidden"
+
+        <dialog onclick="toggleOverlay()" id="overlay-section" class=" dialog-hidden"
             aria-label="Overlay schließen">
 
             <div onclick="overlayStayOpen(event)" class="overlay-box">
@@ -45,10 +45,7 @@
                         &gt;
                     </button>
                 </div>
-
-
             </div>
-
         </dialog>
 
         <footer>
