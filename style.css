@@ -67,17 +67,27 @@ main {
 
 /* the Overlay = the Dialog */
 
-dialog {
-  /* display: flex;
+/* dialog {
+  display: flex;
   justify-content: center;
   align-items: center;
   top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100vh;
-  width: 100vw;
-  background-color: rgba(0, 0, 0, 0.5); */
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+} */
+
+dialog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;       /* ✅ fixiert am Viewport */
+  top: 0;                /* ✅ oben am Viewport */
+  left: 0;               /* ✅ links am Viewport */
+  width: 100vw;          /* ✅ volle Breite des Bildschirms */
+  height: 100vh;         /* ✅ volle Höhe des Bildschirms */
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 1000;         /* ✅ über allem */
 }
 
 .dialog-hidden {
