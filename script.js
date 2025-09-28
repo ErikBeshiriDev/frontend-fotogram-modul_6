@@ -52,6 +52,7 @@ function getImgTemplate(index) {
     `
 }
 
+
 window.onload = function () {
     getImageNames();
     render();
@@ -60,7 +61,6 @@ window.onload = function () {
 
 function toggleOverlay(index) {
     let refOverlay = document.getElementById('overlay-section');
-    currentOverlayImageIndex = index;
     updateOverlayImage(index);
     
     refOverlay.classList.toggle('dialog-hidden');
@@ -69,6 +69,7 @@ function toggleOverlay(index) {
 
 function updateOverlayImage() {
     let overlay = document.getElementById('overlay-images')
+    index = currentOverlayImageIndex;
     overlay.innerHTML = ``
     overlay.innerHTML += `
         <img id="overlayImg" src="${img[currentOverlayImageIndex]}" alt="images">

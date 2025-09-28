@@ -2,30 +2,56 @@
 
     .overlay-box {
         height: auto;
-        width: 700px;
-        /* width: auto; */
+        /* width: 700px; */
+        width: auto;
     }
 
     .overlay-box img {
         height: auto;
         /* width: auto; */
         width: 700px;
+    }
+
+    footer {
+        height: auto;
+    }
+}
+
+@media (max-width: 780px) {
+
+    header {
+        justify-content: center;
+        padding-left: 0;
+    }
+
+    header img {
+        height: auto;
+        width: auto;
     }
 }
 
 @media (max-width: 720px) {
 
     .overlay-box {
+        /* height: auto; */
+        /* height: 500px; */
+        /* width: 600px; */
+        /* width: auto; */
+        /* max-width: 600px; */
         height: auto;
-        width: 600px;
+        max-width: 90%;
+        padding: 10px;
     }
 
     .overlay-box img {
-        height: auto;
-        width: 600px;
+        /* height: auto; */
+        height: 500px;
+        /* width: 600px; */
+        width: auto;
     }
 }
 
+/* 
 @media (max-width: 630px) {
 
     .overlay-box {
@@ -44,7 +70,6 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto auto;
-        width: 100%;
     }
 
     .overlay-image-name {
@@ -106,22 +131,5 @@
 
     .under-the-photo-section {
         width: 200px;
-    }
-}
-
-/* @media (max-width: 240px) {
-
-    .overlay-box {
-        height: auto;
-        width: 100px;
-    }
-
-    .overlay-box img {
-        height: auto;
-        width: 100px;
-    }
-
-    .under-the-photo-section {
-        width: 100px;
     }
 } */
